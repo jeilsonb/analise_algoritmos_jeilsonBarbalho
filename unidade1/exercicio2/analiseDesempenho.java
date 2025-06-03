@@ -19,18 +19,18 @@ public class analiseDesempenho {
 
         for (int i = 0; i < vetor.length; i++) {
             if (vetor[i] == alvo) {
-                System.out.println(alvo + " está na lista (posição: " + i + ")");
+                System.out.println("\n" + alvo + " está na lista (posição: " + i + ")");
                 encontrado = true;
                 break;
             }
         }
 
         if (!encontrado)
-            System.out.println(alvo + " não está na lista");
+            System.out.println("\n" + alvo + " não está na lista");
 
         long fim = System.nanoTime();
         double tempoMs = (fim - inicio) / 1000000;
 
-        System.out.printf("Tempo de busca: %.2f ms%n", tempoMs);
+        System.out.printf("Tempo de busca: %.2f ms%n \n", tempoMs);
     }
 }
