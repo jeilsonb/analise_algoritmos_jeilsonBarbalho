@@ -1,6 +1,6 @@
 import java.util.Random;
 
-public class analiseDesempenho {
+public class DesempenhoBusca {
     public static void main(String[] args) {
         int tamanho = 10000000;
         int[] vetor = new int[tamanho];
